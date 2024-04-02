@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: green;
+}
+
+.scorecard {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+.scorecard th, .scorecard td {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.scorecard th {
+    background-color: LightGray;
+}
+
+.scorecard tr:hover {
+    background-color: lightblue;
+}
